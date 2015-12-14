@@ -12,7 +12,7 @@
 int main(int argc, char *argv[]) {
   FILE* fp;
   fp = fopen("01.txt", "r");
-  char c;
+  unsigned int c;
   int level = 0;
   char char1 = '(';
   char char2 = ')';
